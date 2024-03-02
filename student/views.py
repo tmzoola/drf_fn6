@@ -72,7 +72,7 @@ def book_detail_view(request,pk):
 def book_delete(request,pk):
     book = get_object_or_404(Book, pk=pk)
     book.delete()
-    return Response({"message":"book deleted"})
+    return Response({"message":"book deletedd"})
 
 
 
